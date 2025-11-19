@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="https://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://zerogapsecurity.ch/</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>1.0</priority>
+
+    <xhtml:link rel="alternate" hreflang="en" href="https://zerogapsecurity.ch/index.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://zerogapsecurity.ch/it/index.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://zerogapsecurity.ch/de/index.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zerogapsecurity.ch/index.html" />
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://zerogapsecurity.ch/about.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.9</priority>
+
+    <xhtml:link rel="alternate" hreflang="en" href="https://zerogapsecurity.ch/about.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://zerogapsecurity.ch/it/about.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://zerogapsecurity.ch/de/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zerogapsecurity.ch/about.html" />
+  </url>
+
+  <!-- Story -->
+  <url>
+    <loc>https://zerogapsecurity.ch/story.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.9</priority>
+
+    <xhtml:link rel="alternate" hreflang="en" href="https://zerogapsecurity.ch/story.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://zerogapsecurity.ch/it/story.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://zerogapsecurity.ch/de/story.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zerogapsecurity.ch/story.html" />
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://zerogapsecurity.ch/contact.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.9</priority>
+
+    <xhtml:link rel="alternate" hreflang="en" href="https://zerogapsecurity.ch/contact.html" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://zerogapsecurity.ch/it/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://zerogapsecurity.ch/de/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://zerogapsecurity.ch/contact.html" />
+  </url>
+
+  <!-- AI Security Page -->
+  <url>
+    <loc>https://zerogapsecurity.ch/ai-security.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

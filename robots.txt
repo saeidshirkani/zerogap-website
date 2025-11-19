@@ -1,0 +1,33 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /draft/
+Disallow: /forms/
+Disallow: /*?*
+
+Allow: /$
+Allow: /index.html
+Allow: /about.html
+Allow: /story.html
+Allow: /contact.html
+Allow: /ai-security.html
+
+Allow: /it/
+Allow: /de/
+
+Sitemap: https://zerogapsecurity.ch/sitemap.xml
+
+# Prevent AI Crawlers from unsafe areas
+User-agent: GPTBot
+Disallow: /private/
+Disallow: /forms/
+
+User-agent: Google-Extended
+Disallow: /private/
+Disallow: /forms/
+
+User-agent: CCBot
+Disallow: /
+

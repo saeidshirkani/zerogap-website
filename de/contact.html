@@ -3,75 +3,127 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact – ZeroGap Security</title>
-  <link rel="stylesheet" href="../css/style.css">
+  <title>Kontakt – ZeroGap Security</title>
+<link rel="preload" href="../css/style.css" as="style">
+<link rel="stylesheet" href="../css/style.css">
   <link rel="icon" href="../images/logo.svg">
+  <link rel="alternate" hreflang="en" href="https://zerogapsecurity.ch/contact.html" />
+<link rel="alternate" hreflang="it" href="https://zerogapsecurity.ch/it/contact.html" />
+<link rel="alternate" hreflang="de" href="https://zerogapsecurity.ch/de/contact.html" />
+<link rel="alternate" hreflang="x-default" href="https://zerogapsecurity.ch/contact.html" />
+<link rel="preload" href="../images/logo.svg" as="image" type="image/svg+xml">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "url": "https://zerogapsecurity.ch/de/contact.html",
+  "name": "Kontakt ZeroGap Security",
+  "description": "Kontaktieren Sie ZeroGap Security für Penetrationstests, Sicherheitsbewertungen und Offensive-Security-Dienstleistungen.",
+  "inLanguage": "de",
+  "publisher": {
+    "@type": "Organization",
+    "name": "ZeroGap Security",
+    "url": "https://zerogapsecurity.ch",
+    "logo": "https://zerogapsecurity.ch/images/logo.svg",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "CH",
+      "addressRegion": "Ticino"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "hello@zerogapsecurity.ch",
+      "contactType": "customer support"
+    }
+  },
+  "potentialAction": {
+    "@type": "CommunicateAction",
+    "target": "https://zerogapsecurity.ch/de/contact.html",
+    "description": "Senden Sie eine Nachricht an ZeroGap Security über das Kontaktformular."
+  }
+}
+</script>
+
 </head>
 <body>
   <div class="page">
     <header>
       <div class="nav-inner">
-        <a href="index.html" class="brand">
-          <img src="../images/logo.svg" alt="ZeroGap Security logo">
+        <a href="../index.html" class="brand">
+          <img src="../images/logo.svg" alt="ZeroGap Security Logo">
           <span>ZeroGap Security</span>
         </a>
         <nav class="nav-links">
-          <a href="index.html" class="">Home</a><a href="about.html" class="">About</a><a href="story.html" class="">Story</a><a href="contact.html" class="active">Contact</a>
+          <a href="../index.html">Home</a>
+          <a href="about.html">Über uns</a>
+          <a href="story.html">Story</a>
+          <a href="contact.html" class="active">Kontakt</a>
         </nav>
-        
-<div class="lang-switch">
-  <span class="lang-label">LANG</span>
-  <a href="../contact.html" class="">EN</a>
-  <a href="../it/contact.html" class="">IT</a>
-  <a href="contact.html" class="current">DE</a>
-</div>
 
+        <div class="lang-switch">
+          <span class="lang-label">LANG</span>
+          <a href="../contact.html">EN</a>
+          <a href="../it/contact.html">IT</a>
+          <a href="contact.html" class="current">DE</a>
+        </div>
       </div>
     </header>
-    <main>
-      
-      
-<section class="section">
-  <div class="two-col">
-    <div>
-      <div class="section-head">
-        <h2>Start a conversation</h2>
-        <p>Tell us a bit about your environment and goals. We’ll come back with possible next steps, not generic sales pitches.</p>
-      </div>
-      <form class="form" name="contact" method="post" data-netlify="true">
-        <input type="hidden" name="form-name" value="contact">
-        <div class="field">
-          <label for="name">Name*</label>
-          <input id="name" name="name" required>
-        </div>
-        <div class="field">
-          <label for="email">Email*</label>
-          <input id="email" name="email" type="email" required>
-        </div>
-        <div class="field">
-          <label for="company">Company</label>
-          <input id="company" name="company">
-        </div>
-        <div class="field">
-          <label for="message">What would you like to secure?</label>
-          <textarea id="message" name="message" rows="5"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send message</button>
-      </form>
-    </div>
-    <aside class="info-panel">
-      <h3>Prefer email?</h3>
-      <p>You can also reach us directly at:</p>
-      <p><a href="mailto:hello@zerogapsecurity.ch" style="color:var(--accent-soft);text-decoration:none;">hello@zerogapsecurity.ch</a></p>
-      <h3>Location</h3>
-      <p>Ticino, Switzerland<br>Working with clients across Switzerland and remotely.</p>
-    </aside>
-  </div>
-</section>
 
+    <main>
+      <section class="section">
+        <div class="two-col">
+          <div>
+            <div class="section-head">
+              <h2>Starten Sie eine Anfrage</h2>
+              <p>Teilen Sie uns etwas über Ihre Umgebung und Ihre Ziele mit. Wir melden uns mit klaren nächsten Schritten — ohne generische Verkaufsgespräche.</p>
+            </div>
+
+            <!-- FIX: Correct German success page -->
+            <form class="form" name="contact" method="POST" data-netlify="true" action="/de/success.html" netlify-honeypot="bot-field">
+              <input type="hidden" name="form-name" value="contact">
+
+              <p style="display:none;">
+                <label>Bitte nicht ausfüllen: <input name="bot-field"></label>
+              </p>
+
+              <div class="field">
+                <label for="name">Name*</label>
+                <input id="name" name="name" required>
+              </div>
+
+              <div class="field">
+                <label for="email">Email*</label>
+                <input id="email" name="email" type="email" required>
+              </div>
+
+              <div class="field">
+                <label for="company">Firma</label>
+                <input id="company" name="company">
+              </div>
+
+              <div class="field">
+                <label for="message">Was möchten Sie absichern?</label>
+                <textarea id="message" name="message" rows="5"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Nachricht senden</button>
+            </form>
+          </div>
+
+          <aside class="info-panel">
+            <h3>Bevorzugen Sie E-Mail?</h3>
+            <p>Sie können uns auch direkt kontaktieren unter:</p>
+            <p><a href="mailto:hello@zerogapsecurity.ch" style="color:var(--accent-soft);text-decoration:none;">hello@zerogapsecurity.ch</a></p>
+
+            <h3>Standort</h3>
+            <p>Tessin, Schweiz<br>Wir arbeiten mit Kunden in der ganzen Schweiz und remote.</p>
+          </aside>
+        </div>
+      </section>
     </main>
+
     <footer>
-      © 2025 ZeroGap Security — All rights reserved.
+      © 2025 ZeroGap Security — Alle Rechte vorbehalten.
     </footer>
   </div>
 </body>
