@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Digital Security Twin — Powered by ZeroGap AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="logo">ZeroGap</div>
+<h1>Digital Security Twin — Powered by ZeroGap AI</h1>
+<div class="input-section">
+<button id="buildBtn">Build Twin</button>
+</div>
+
+<div id="twinSection" class="hidden">
+<h2>Attack Surface Twin (Demo)</h2>
+<img src="assets/graph.png" class="graph">
+</div>
+
+<div id="scanSection" class="hidden">
+<h2>AI Scan Results</h2>
+<ul>
+<li><span class="c">Critical:</span> 2</li>
+<li><span class="h">High:</span> 3</li>
+<li><span class="m">Medium:</span> 4</li>
+<li><span class="l">Low:</span> 1</li>
+</ul>
+<a href="report.pdf" download>Download AI Report (PDF)</a>
+</div>
+
+<script src="twin.js"></script>
+</body>
+</html>
